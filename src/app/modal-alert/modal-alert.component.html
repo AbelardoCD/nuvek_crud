@@ -1,0 +1,18 @@
+<div>
+    <div class="alert-modal fadeIn">
+        <div class="card bg-white col-md-4 p-5">
+            <div class="text-center">
+                <p class="text-danger">{{message}}</p>
+                <div class="d-flex justify-content-center mb-2">
+                    <div id="icon-alert">
+                        <p class="text-danger">Alert!</p>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-around">
+                    <label (click)="delete()" class="btn btn-success">{{'Aceptar'}}</label>
+                    <label (click)="onCloseModal()" class="btn btn-info">{{'Cancelar'}}</label>
+
+                </div>
+            </div>
+        </div>
+    </div>
